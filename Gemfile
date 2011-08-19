@@ -21,6 +21,11 @@ gem 'sqlite3'
 # gem 'bj'
 # gem 'nokogiri'
 # gem 'sqlite3-ruby', :require => 'sqlite3'
+
+group :development, :test do
+  gem 'sqlite3-ruby', :require => 'sqlite3'
+end
+
 # gem 'aws-s3', :require => 'aws/s3'
 
 gem 'will_paginate', '>= 3.0.pre'
